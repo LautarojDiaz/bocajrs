@@ -1,0 +1,167 @@
+
+body{
+    font-family: 'Krona One', sans-serif;
+    background: url(../multimedia/campeones.jpg);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 110%;
+    background-attachment: fixed;
+
+}
+
+.boca img{
+    width: 120px;
+}
+
+body :before{
+    content: "";
+    width: 100%;
+    min-height: 170vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.692), rgba(52, 224, 210, 0.226), rgba(0, 0, 0, 0.733));
+
+    opacity: 0.1;
+    z-index: -1;
+}
+
+
+.contenedor{
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+
+
+}
+
+.bg_animate{
+    width: 100%;
+    height: 110vh;
+   
+}
+
+.header_nav{
+    width: 100%;
+}
+
+.header_nav .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+
+
+/* TITULOS */
+
+.plantel{
+    display: flex;
+    margin: 30px;
+    justify-content: center; 
+    color: #fff;
+    
+}
+
+.arquerostitulo{
+    display: flex;
+    margin: 30px;
+    justify-content: center; 
+    color: #fff;
+}
+
+.defensortitulo{
+    display: flex;
+    margin: 30px;
+    justify-content: center; 
+    color: #fff;
+}
+
+.mediocampistastitulo{
+    display: flex;
+    margin: 0px;
+    justify-content: center; 
+    color: #fff;
+}
+
+.delanterostitulo{
+    display: flex;
+    margin: 30px;
+    justify-content: center; 
+    color: #fff;
+
+}
+
+/* ARQUEROS */
+
+.arqueros{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+        /* DEFENSORES */
+
+.defensores{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+}
+
+
+    /* MEDIOCAMPISTAS */
+.medio{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+
+    /* DELANTEROS */
+
+.delanteros{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+#medio{
+    background: linear-gradient(rgba(0, 0, 0, 0.829), rgba(52, 224, 210, 0.486),rgb(0, 0, 0));
+}
+    
+
+/* REDES */
+
+footer{
+    text-align: center;
+    padding: 60px 0;
+    color: #fff;
+    background: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: 0px;
+}
+
+
+footer img{
+    padding: 10px;
+    width: 60px ;
+    height: 60px ;
+    
+}

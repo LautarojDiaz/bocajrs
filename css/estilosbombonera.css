@@ -1,0 +1,178 @@
+body{
+    font-family: 'Krona One', sans-serif;
+    background: url(../multimedia/bombonerafondo.jpg);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 110%;
+    background-attachment: fixed;
+
+}
+
+.boca img{
+    width: 120px;
+}
+
+
+    /* FONDO GRADIENTE */
+
+    body :before{
+        content: "";
+        width: 100%;
+        min-height: 170vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+        background: linear-gradient(rgb(0, 0, 0), rgba(52, 224, 210, 0.466), rgb(0, 0, 0));
+    
+        opacity: 0.1;
+        z-index: -1;
+    }
+
+
+    /* CONTENEDOR */
+
+.contenedor{
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+
+
+}
+
+
+        /* INICIO, HISTORIA, ETC */
+
+.bg_animate{
+    width: 100%;
+    height: 110vh;
+   
+}
+
+.header_nav{
+    width: 100%;
+}
+
+.header_nav .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+.header_nav h1{
+    font-family: 'Krona One', sans-serif;
+    color: #fff;
+    font-size: 140%;
+}
+
+.header_nav nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+     /* CONTENIDO D LA PAG*/
+
+
+
+        /* letras de los parrafos */
+.p{
+    font-family: 'Nunito', sans-serif;
+} 
+
+
+
+
+.tituloprin{
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+}
+
+
+.inauguracion{
+    text-align: center;
+    color: #fff;
+    margin:40px
+}
+
+
+.primeracancha img{
+    width: 320px;
+    border-style: solid black ;
+    border-width: 3px;
+    transform: translate(660px,1px)
+
+}
+
+
+    /* BOMBONERA D CEMENTO */
+
+
+        /* COLOQUE UN ID PORQUE NO BAJABA MAS EL DEGRADE */
+#cemento {
+    background: linear-gradient(rgb(0, 0, 0),rgba(52, 224, 210, 0.575),rgba(0, 0, 0, 0.63));
+    margin: 74px;
+    margin-left: 0px;
+    margin-right: 0px;    
+}
+
+
+.cemento{
+    text-align: center;
+    color: #fff;
+    margin:40px
+}
+
+
+.cementofoto img{
+    width: 320px;
+    border-style: solid black;
+    border-width: 5px;
+    transform: translate(670px,1px)
+}
+
+
+    /* REFORMAS */
+
+.reformas{
+    text-align: center;
+    color: #fff;
+    margin:40px
+
+}
+
+.estadiohoy img{
+    width: 320px;
+    border-style: solid black;
+    border-width: 5px;
+    transform: translate(670px,-20px)
+    
+}
+
+
+
+/* REDES */
+
+footer{
+    text-align: center;
+    padding: 60px 0;
+    color: #fff;
+    background: black;
+    
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+
+footer img{
+    padding: 10px;
+    width: 60px ;
+    height: 60px ;
+    
+}
