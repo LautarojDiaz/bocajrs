@@ -24,7 +24,7 @@ body:before{
 
     left: 0;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.76) 40%, rgba(255, 255, 0, 0.356));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76) 40%, rgba(255, 255, 0, 0.356),rgba(0, 0, 0, 0.76));
 
     z-index: -1;
 }
@@ -35,7 +35,10 @@ body:before{
 
 .escudo img{
     width: 120px;
+   
 }
+
+
 
 
   /* LOGO Y MENU */  
@@ -134,7 +137,32 @@ body:before{
 }
 
 
+/* COPAS INTERNACIONALES */
 
+#copas{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76) , rgba(255, 255, 0, 0.356), rgba(0, 0, 0, 0.76));
+
+}
+
+.copas{
+    text-align: center;
+   
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+}
+
+.copas h2 , h3, h4{
+    margin: 0px;
+    padding: 15px;
+}
+
+
+
+.copas img{
+    border: #fff solid 3px;
+}
 
 /* REDES */
 
@@ -151,7 +179,6 @@ footer img{
     width: 60px ;
     height: 60px ;
 }
-
 
 
 
