@@ -5,29 +5,6 @@
   
 }
 
-body{
-    font-family: 'Krona One', sans-serif;
-    background: url(../multimedia/bombonerafondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-     
-}
-
-body:before{
-    content: "";
-    width: 100%;
-    min-height: 100vh;
-    position: absolute;
-    top: 0;
-
-    left: 0;
-
-    background-image: linear-gradient(rgba(0, 0, 0, 0.76) 40%, rgba(255, 255, 0, 0.356));
-
-    z-index: -1;
-}
 
 
 
@@ -39,31 +16,15 @@ body:before{
 
    
 
-/* GRID CONTAINER */
-
-.grid-container{
-    font-size: 20px;
-    display: grid;
-    grid-template-columns: 150px auto 150px;
-    grid-template-rows: repeat(3, 100px);
-    gap: 9px;
-}
-
-
-
-.grid-container > *{
-  
-    border: 1px solid rgba(255, 255, 0, 0.473);
-    text-align: center;
-    color: #fff;
-    display: flex;
+.contenedor{
+    margin: 0;
+    padding: 20px;
     justify-content: center;
+    font-size: 15px;
+    text-align: center;
     align-items: center;
-}
-
-
-header, footer, article{
-    grid-column: 1 / span 3;
+    color: #fff;
+    background-color: #484848;
 }
 
 /* HISTORIA */

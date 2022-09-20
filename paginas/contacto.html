@@ -5,64 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    
+
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+    <!-- CSS -->
          <link rel="stylesheet" href="../css/estiloscontacto.css">
 
 
          <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+    
 
 </head>
 <body>
-
-    <header class="contex">
-        <div class="header_nav">
-            <div class="contenedor">
-                <div class="boca">
-                <img src="../multimedia/cabj.png" >
-                </div>
-                <nav>
-                
-                    <a href="../index.html">Inicio</a>
-                    <a href="../paginas/historia.html">Historia</a>
-                    <a href="../paginas/plantel.html">Plantel</a>
-                    <a href="../paginas/bombonera.html">Bombonera</a>
-                    
-                </nav>
+    <section id="background"><!-- puse un background porq no me daba mas -->
+    
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="../multimedia/cabj.png" width="150px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/plantel.html">Plantel</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/bombonera.html">Bombonera</a>
+                  </li>
+                 
+                </ul>
+              </div>
             </div>
-        </div>
-
-    </header>
-
+          </nav>
+        
 
         <!-- FORMULARIO -->
 
-        <div class="contenedorr">
-            <form action="" class="form">
-                <div class="form-header">
-                    <h1 class="form-title">Contacto</h1>
-                </div>
-
-                <label for="nombre" class="form-label">Nombre y Apellido:</label>
-                <input type="text" id="nombre" class="form-input" placeholder="Escriba su nombre">
-
-                <label for="país" class="form-label">País:</label>
-                <input type="text" id="país" class="form-input" placeholder="Escriba su país">
-
-                <label for="correo" class="form-label">Correo:</label>
-                <input type="email" id="correo" class="form-input" placeholder="Escriba su correo">
-
-                <label for="mensaje" class="form-label">Mensaje:</label>
-                <textarea id="mensaje" class="form-textarea" placeholder="Escriba su mensaje aquí"></textarea>
-
-                
-                <div class="enviar">
-                    <input type="submit" class="btn-submit" value="Enviar">
-                </div>
-
-            </form>
-        </div>
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltip01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+            <div class="valid-tooltip">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltip02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+            <div class="valid-tooltip">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltipUsername" class="form-label">Username</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+              <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+              <div class="invalid-tooltip">
+                Please choose a unique and valid username.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 position-relative">
+            <label for="validationTooltip03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationTooltip03" required>
+            <div class="invalid-tooltip">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip04" class="form-label">State</label>
+            <select class="form-select" id="validationTooltip04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>...</option>
+            </select>
+            <div class="invalid-tooltip">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3 position-relative">
+            <label for="validationTooltip05" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="validationTooltip05" required>
+            <div class="invalid-tooltip">
+              Please provide a valid zip.
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+        </form>
 
         <!-- FIN DEL FORMULARIO -->
 
@@ -79,5 +132,8 @@
         </div>
  
      </footer>
+                       <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

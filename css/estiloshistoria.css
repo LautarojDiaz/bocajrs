@@ -33,7 +33,7 @@ body :before{
 }
 
 #background{
-    background: black;
+    background: linear-gradient(black,black,rgba(0, 195, 255, 0.274),black);
 }
 
 /* CONTENIDO */
@@ -80,13 +80,36 @@ body :before{
 
 
     /* HISTORIA */
+    .titulo{
+        font-family: 'Bebas Neue', cursive;
+        justify-content: center;
+        margin: 40px;
+        text-align: center;
+    }
+    .contenedor{
+        text-align: center;
+        margin: 30px;
+        padding: 15px;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
 
-.contenido{
-    align-items: center;
+    .contenedor img{
+        border: 3px solid #fff;
+        margin: 30px;
+    }
+
+
+
+    .row{
+    margin: 10px;
     justify-content: center;
-    width: 700px;
-    margin: 20px;
-}
+    text-align: center;
+    align-items: center;
+    }
+
+
 
 /* FOOTER*/
 

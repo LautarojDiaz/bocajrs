@@ -29,113 +29,11 @@ body :before{
 }
 
 .contenedor{
-    width: 90%;
-    max-width: 1400px;
-    margin: auto;
-
-
-}
-
-.bg_animate{
-    width: 100%;
-    height: 110vh;
-   
-}
-
-.header_nav{
-    width: 100%;
-}
-
-.header_nav .contenedor{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    
-}
-
-        /* FORMULARIO
-          */
-
-.header_nav h1{
-    font-family: 'Krona One', sans-serif;
-    color: #fff;
-    font-size: 140%;
-}
-
-
-
-.header_nav nav a{
-    color: #fff;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.contenedorr .form .form-header .form-title{
-    font-weight: normal;
-    font-family: 'Krona One', sans-serif;
+    margin: 20px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-
-.contenedorr .form .form-header .form-title{
-    color: #fff;
-}
-
-
-.contenedorr .form{
-    background: rgba(0, 0, 0, .6);
-    width: 90%;
-    max-width: 650px;
-    margin: auto;
-    padding: 5px 35px;
-    margin-top: 50px;
-    padding-bottom: 30px;
-    border-radius: 3px;
-}
-
-.contenedorr .form .form-label{
-    display: block;
-    color: rgba(255, 255, 255, 0.822);
-    font-size: 16px;
-    position: relative;
-}
-
-.contenedorr .form .form-input, .form-textarea{
-    background: rgba(10, 12, 12, 0.938);
-    border: none;
-    outline: none;
-    border-bottom: 2px solid ;
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 30px;
-    border-radius: 2px;
-    font-size: 14px;
-    color: rgb(255, 255, 0);
-    
-
-}
-
-.contenedorr .form .form-textarea{
-    resize: vertical;
-    max-height: 150px;
-    min-height: 50px;
-}
-
-.contenedorr .form .btn-submit{
-    width: 100%;
-    outline: none;
-    background: rgb(255, 255, 0);
-    font-size: 16px;
-    border: none;
-    padding: 15px 0;
-    cursor: pointer;
-    transition: all .5s ease;
-}
-
-.contenedorr .form .btn-submit:hover{
-    background:  rgb(247, 210, 2);
-}
-
 
 /* REDES */
 
