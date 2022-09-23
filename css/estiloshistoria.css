@@ -44,39 +44,42 @@ body :before{
 }
 
 
-  /* LOGO Y MENU */  
+  
+        /* /* LOGO Y MENU */  
 
-.contenedor{
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-}
+        /* EN ESTE MOMENTO ESTA EL DE BOOSTRAP */
 
-.bj_animate{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
+        .contenedor{
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
 
-.header_nav{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+        .bj_animate{
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
 
-.header_nav .contenedor{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-}
+        .header_nav{
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
 
-.header_nav nav a{
-    color:#fff;
-    text-decoration: none;
-    margin-right: 10px;
-}
+        .header_nav .contenedor{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+
+        .header_nav nav a{
+            color:#fff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
 
 
     /* HISTORIA */
@@ -86,6 +89,12 @@ body :before{
         margin: 40px;
         text-align: center;
     }
+
+
+
+        /* Quise usar el selector .p
+        pero al momento de querer acomodar las imagenes, solo se mueve la primera de los escudos
+        (es raro, ya que es todo un contenedor las imagenes) */
     .contenedor{
         text-align: center;
         margin: 30px;
@@ -135,7 +144,10 @@ footer img{
         grid-template-areas: "header header header"
                             "contenido contenido contenido"
                               "click click_dos sidebar";
-    }
+    
+
+
+  }
 }
 
 

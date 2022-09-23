@@ -1,12 +1,14 @@
 
 body{
     font-family: 'Krona One', sans-serif;
-    background: url(../multimedia/carlosboca.jpg);
+    background: black;
     margin: 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 110%;
-    background-attachment: fixed;
+ 
+
+    color: #fff;
 
 }
 
@@ -22,7 +24,7 @@ body :before{
     top: 0;
     left: 0;
 
-    background: linear-gradient(rgb(0, 0, 0), rgba(52, 224, 210, 0.932));
+    background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 0, 0.479), black);
 
     opacity: 0.1;
     z-index: -1;
@@ -33,6 +35,38 @@ body :before{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+  /* LOGO Y MENU */  
+
+  .escudo img{
+    width: 120px;
+  }
+
+  .contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header_nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header_nav .contenedor{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.header_nav nav a{
+    color:#484848;
+    text-decoration: none;
+    margin-right: 10px;
 }
 
 /* REDES */
@@ -53,4 +87,23 @@ footer img{
     width: 60px ;
     height: 60px ;
     
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media all and (max-width: 768px){
+    .imagenesboca img{
+        width: 200px;
+        align-items: center;
+    }
+}
+
+@media all and (max-width: 320px){
+    .imagenesboca img{
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+    }
 }
