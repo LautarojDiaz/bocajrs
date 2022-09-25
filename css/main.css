@@ -1,0 +1,181 @@
+/* FORMULARIO*/
+.header_nav h1 {
+  font-family: 'Krona One', sans-serif;
+  color: #fff;
+  font-size: 140%; }
+
+.header_nav nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px; }
+
+.contenedorr .form .form-header .form-title {
+  font-weight: normal;
+  font-family: 'Krona One', sans-serif;
+  text-align: center; }
+
+.contenedorr .form .form-header .form-title {
+  color: #fff; }
+
+.contenedorr .form {
+  background: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  border-radius: 3px; }
+
+.contenedorr .form .form-label {
+  display: block;
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 16px;
+  position: relative; }
+
+.contenedorr .form .form-input, .form-textarea {
+  background: rgba(10, 12, 12, 0.938);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: yellow; }
+
+.contenedorr .form .form-textarea {
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px; }
+
+.contenedorr .form .btn-submit {
+  width: 100%;
+  outline: none;
+  background: yellow;
+  font-size: 16px;
+  border: none;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all .5s ease; }
+
+.contenedorr .form .btn-submit:hover {
+  background: #f7d202; }
+
+/* FIN DEL CONTACTO */
+/* INDEX */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Krona One', sans-serif;
+  background: url(../multimedia/riquelmepalermo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+body:before {
+  content: "";
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.76) 40%, rgba(255, 255, 0, 0.356), rgba(0, 0, 0, 0.76));
+  z-index: -1; }
+
+/* LOGO Y MENU */
+.bj_animate {
+  width: 100%;
+  height: 100vh;
+  position: relative; }
+  .bj_animate .header_nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .bj_animate .header_nav .contenedor {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0; }
+  .bj_animate .contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto; }
+  .bj_animate .header_nav nav a {
+    color: #484848;
+    text-decoration: none;
+    margin-right: 10px; }
+  .bj_animate .escudo img {
+    width: 120px; }
+
+/* EFECTO LUZ MENU */
+/* queria usar el & para los hover, 
+        pero no me los tomaba */
+.menu span {
+  transition: .5s linear; }
+
+.menu:hover span:nth-child(3) {
+  margin-right: 1px; }
+
+.menu:hover span:nth-child(3) {
+  margin-right: 1px; }
+
+.menu:hover span {
+  color: #fff;
+  text-shadow: 0 0 40px #fff; }
+
+/* SUBTITULO */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%; }
+  .banner .banner_title h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px; }
+  .banner .banner_title .registrate {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background: #d7da0c;
+    padding: 20px; }
+  .banner .banner_img img {
+    width: 600px;
+    display: block; }
+
+/* COPAS INTERNACIONALES */
+#copas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(255, 255, 0, 0.356), rgba(0, 0, 0, 0.76)); }
+  #copas .copas {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff; }
+  #copas .copas h2, #copas h3, #copas h4 {
+    margin: 0px;
+    padding: 15px; }
+  #copas .copas img {
+    border: #fff solid 3px; }
+
+/* REDES */
+footer {
+  text-align: center;
+  padding: 60px 0;
+  color: #fff;
+  background: black;
+  width: 100%; }
+  footer .redes img {
+    padding: 10px;
+    width: 60px;
+    height: 60px; }
+
+/* FIN DEL INDEX */

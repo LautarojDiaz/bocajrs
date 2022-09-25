@@ -1,4 +1,4 @@
-*{
+{*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -79,8 +79,6 @@ body:before{
 
 /* EFECTO LUZ MENU */
 
-
-    /* HISTORIA */
 .menu span{
     transition: .5s linear;
 
