@@ -1,3 +1,130 @@
+.bocahistoria{
+    background: url(../multimedia/guillemartin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+    font-size: 'Krona One', sans-serif;
+}
+
+body:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76) 40%, rgba(255, 255, 0, 0.356),rgba(0, 0, 0, 0.76));
+
+    z-index: -1;
+}
+
+/* LOGO Y MENU */  
+.contexx{
+    .contenedor{
+        width: 90%;
+        max-width: 1400px;
+        margin: auto;
+        }
+        .bg_animate{
+        width: 100%;
+        height: 110vh;
+        }
+        .header_nav{
+        width: 100%;
+        }
+        .header_nav .contenedor{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        }
+    
+}
+.boca img{
+    width: 120px;
+    }
+
+
+/* SUBTITULO */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+ 
+    
+    .banner_title h2{
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    
+    .banner_title .registrate{
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        display: inline-block;
+        background: rgb(215, 218, 12);
+        padding: 20px;
+
+    }
+    
+    .banner_img img{
+        width: 600px;
+        display: block;
+    }
+    
+}
+/* LIBERTADORES*/
+.libertadores{
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-columnas{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.columnasx3{
+    width: 33.333%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.columnasx3 img{
+    width: 350px;
+    border: solid #fff 3px;
+}
+
+h4{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* FOOTER*/
+
+
+
+footer{
+    text-align: center;
+    padding: 60px 0;
+    color: #fff;
+    background: black;
+}
+
+
+footer img{
+    padding: 10px;
+    width: 60px ;
+    height: 60px ;
+}
 
 
 

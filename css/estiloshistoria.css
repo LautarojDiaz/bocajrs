@@ -1,126 +1,98 @@
-*{
-    margin: 0;
-    padding: 0;
+.bocahistoria{
+    background: url(../multimedia/palermo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+    font-size: 'Krona One', sans-serif;
 }
 
-.historiaboca{
-    font-family: 'Krona One', sans-serif;
-    color: #fff;
-    margin: 0;
-   
-
-}
-
-        /* CONTENEDOR AL TODOS LOS LINKS */
-
-
-.boca img{
-    width: 120px;
-}
-
-body :before{
+body:before{
     content: "";
     width: 100%;
-    min-height: 170vh;
+    min-height: 100vh;
     position: absolute;
     top: 0;
+
     left: 0;
 
-    background: rgba(0, 0, 0, 0.726);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76) 40%, rgba(255, 255, 0, 0.356),rgba(0, 0, 0, 0.76));
 
-    opacity: 0.1;
     z-index: -1;
 }
 
-#background{
-    background: linear-gradient(black,black,rgba(0, 195, 255, 0.274),black);
-}
-
-/* CONTENIDO */
-   /* CABJ */
-
-   .escudo img{
-    width: 120px;
-}
-
-
-  
-        /* /* LOGO Y MENU */  
-
-        /* EN ESTE MOMENTO ESTA EL DE BOOSTRAP */
-
-        .contenedor{
-            width: 90%;
-            max-width: 1200px;
-            margin: auto;
-        }
-
-        .bj_animate{
-            width: 100%;
-            height: 100vh;
-            position: relative;
-        }
-
-        .header_nav{
-            width: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-
-        .header_nav .contenedor{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 0;
-        }
-
-        .header_nav nav a{
-            color:#fff;
-            text-decoration: none;
-            margin-right: 10px;
-        }
-
-
-    /* HISTORIA */
-    .titulo{
-        font-family: 'Bebas Neue', cursive;
-        justify-content: center;
-        margin: 40px;
-        text-align: center;
-    }
-
-
-
-        /* Quise usar el selector .p
-        pero al momento de querer acomodar las imagenes, solo se mueve la primera de los escudos
-        (es raro, ya que es todo un contenedor las imagenes) */
+/* LOGO Y MENU */  
+.contexx{
     .contenedor{
-        text-align: center;
-        margin: 30px;
-        padding: 15px;
+        width: 90%;
+        max-width: 1400px;
+        margin: auto;
+        }
+        .bg_animate{
+        width: 100%;
+        height: 110vh;
+        }
+        .header_nav{
+        width: 100%;
+        }
+        .header_nav .contenedor{
+        display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
-        color: #fff;
+        padding: 15px;
+        }
+    
+}
+.boca img{
+    width: 120px;
     }
 
-    .contenedor img{
-        border: 3px solid #fff;
-        margin: 30px;
-    }
 
+/* SUBTITULO */
 
-
-    .row{
-    margin: 10px;
-    justify-content: center;
-    text-align: center;
+.banner{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    height: 100%; 
+    
+    .banner_title h2{
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
     }
+    
+    .banner_title .registrate{
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        display: inline-block;
+        background: rgb(215, 218, 12);
+        padding: 20px;
+    }
+    
+    .banner_img img{
+        width: 600px;
+        display: block;
+    }
+    
+}
+/* LIBERTADORES*/
 
+.contenedor-columnas{
+    width: 100%;
+    margin: auto;
+}
+
+.columnasx3{
+    width: 33.333%;
+    float: left;
+}
 
 
 /* FOOTER*/
+
+
 
 footer{
     text-align: center;
@@ -137,26 +109,6 @@ footer img{
 }
 
 
-/* MEDIA QUERIES */
-
-@media screen and (max-width:768px){
-    .contenedorr{
-        grid-template-areas: "header header header"
-                            "contenido contenido contenido"
-                              "click click_dos sidebar";
-    
 
 
-  }
-}
-
-
-@media screen and (max-width:375px){
-    .contenedorr{
-        grid-template-areas: "header header header"
-                            "contenido contenido contenido"
-                            "sidebar sidebar sidebar"
-                              "click click click_dos";
-  }
-}
   

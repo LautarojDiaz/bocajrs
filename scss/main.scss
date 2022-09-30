@@ -1,3 +1,15 @@
-@import "contacto";
 @import "index";
+@import "historia";
+@import "contacto";
+@import "variables";
 @import "bombonera"; 
+@import "plantel";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $colorletra;
+    font-family: 'Krona One', sans-serif;
+}
