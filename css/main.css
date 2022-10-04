@@ -5,11 +5,10 @@
   box-sizing: border-box; }
 
 .indexx {
-  background: url(../multimedia/riquelmepalermo.jpg);
+  /* background: url(../multimedia/riquelmepalermo.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed; }
+  background-position: center; }
 
 body:before {
   content: "";
@@ -18,7 +17,7 @@ body:before {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.76) 40%, rgba(255, 255, 0, 0.356), rgba(0, 0, 0, 0.76));
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.76) 40%, rgba(255, 255, 0, 0.356),rgba(0, 0, 0, 0.76)); */
   z-index: -1; }
 
 /* LOGO Y MENU */
@@ -46,6 +45,52 @@ body:before {
     margin-right: 10px; }
   .bj_animate .escudo img {
     width: 120px; }
+
+/* EXTEND */
+.diego, .armando, .maradona {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  text-align: center; }
+
+.armando {
+  background-color: rgba(255, 255, 0, 0.548);
+  height: 90px; }
+
+.maradona {
+  background-color: rgba(0, 0, 255, 0.377);
+  height: 70px; }
+
+/* MIXIN */
+.cuadradomixin1 {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  display: inline-block;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow; }
+
+.cuadradomixin2 {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  display: inline-block;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 255, 0.61); }
+
+.cuadradomixin3 {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  display: inline-block;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow; }
 
 /* EFECTO LUZ MENU */
 /* queria usar el & para los hover, 
@@ -96,13 +141,25 @@ body:before {
   #copas .copas img {
     border: #fff solid 3px; }
 
+/* SPONSORS */
+.sponsor img {
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  margin: 20px; }
+
+.sponsor {
+  justify-content: center;
+  align-items: center;
+  margin: 20px; }
+
 /* REDES */
 footer {
   text-align: center;
   padding: 60px 0;
   background: black;
-  width: 100%;
-  margin-top: 30px; }
+  width: 100%; }
   footer .redes img {
     padding: 10px;
     width: 60px;
@@ -219,6 +276,27 @@ footer img {
 .boca img {
   width: 120px; }
 
+.contex .contenedor {
+  width: 90%;
+  max-width: 1400px;
+  margin: auto; }
+
+.contex .bg_animate {
+  width: 100%;
+  height: 110vh; }
+
+.contex .header_nav {
+  width: 100%; }
+
+.contex .header_nav .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px; }
+
+.contex .boca img {
+  width: 120px; }
+
 /* FORMULARIO*/
 .header_nav h1 {
   font-family: 'Krona One', sans-serif;
@@ -277,35 +355,18 @@ footer img {
 .contenedorr .form .btn-submit:hover {
   background: #f7d202; }
 
-.contex .contenedor {
-  width: 90%;
-  max-width: 1400px;
-  margin: auto; }
-
-.contex .bg_animate {
-  width: 100%;
-  height: 110vh; }
-
-.contex .header_nav {
-  width: 100%; }
-
-.contex .header_nav .contenedor {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px; }
-
-.contex .boca img {
-  width: 120px; }
-
 /* FIN DEL CONTACTO */
+body {
+  background-color: rgba(0, 38, 255, 0.493); }
+
 /* BOMBONERA */
 .bombonerita {
   background: url(../multimedia/bombonerafondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  margin: 0; }
 
 body:before {
   content: "";
@@ -313,8 +374,9 @@ body:before {
   min-height: 100vh;
   position: absolute;
   top: 0;
+  margin: 0;
   left: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.76) 40%, rgba(255, 255, 0, 0.356), rgba(0, 0, 0, 0.76));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.76) 70%, rgba(255, 255, 0, 0.356), rgba(0, 0, 0, 0.76));
   z-index: -1; }
 
 /* CABJ */
@@ -331,20 +393,6 @@ h2 {
   text-align: center;
   margin: 25px;
   margin-top: 80px; }
-
-.conjunto {
-  margin: 0px;
-  justify-content: center;
-  text-align: center; }
-
-.parteuno {
-  margin: 20px; }
-
-.partedos {
-  margin: 20px; }
-
-.partetres {
-  margin: 20px; }
 
 /* LOGO Y MENU */
 .contenedor {
@@ -369,7 +417,35 @@ h2 {
   text-decoration: none;
   margin-right: 10px; }
 
-/* MEDIA QUERIES */
+.videoyt {
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex; }
+
+.maps {
+  display: flex;
+  margin: 30px;
+  font-size: 80%;
+  justify-content: center;
+  align-items: center; }
+
+.bombonera360 {
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+
+.museo {
+  display: flex;
+  margin: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center; }
+
+#bg {
+  background-color: linear-gradient(rgba(0, 0, 0, 0.76) 70%, rgba(255, 255, 0, 0.356), rgba(0, 0, 0, 0.76)); }
+
 /* PLANTEL  */
 .plantelbody {
   background: url(../multimedia/campeones.jpg);

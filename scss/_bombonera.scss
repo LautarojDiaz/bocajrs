@@ -7,6 +7,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin: 0;
     
      
 }
@@ -17,10 +18,11 @@ body:before{
     min-height: 100vh;
     position: absolute;
     top: 0;
+    margin: 0;
 
     left: 0;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.76) 40%, rgba(255, 255, 0, 0.356),rgba(0, 0, 0, 0.76) );
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76) 70%, rgba(255, 255, 0, 0.356),rgba(0, 0, 0, 0.76) );
 
     z-index: -1;
 }
@@ -33,7 +35,6 @@ body:before{
     width: 120px;
 }
 
-   
 
 
 
@@ -52,23 +53,7 @@ h2{
 }
 
 
-.conjunto{
-    margin: 0px;
-    justify-content: center;
-    text-align: center;
 
-}
-
-.parteuno{
-    margin: 20px;
-}
-
-.partedos{
-    margin: 20px;
-}
-.partetres{
-    margin: 20px;
-}
   /* LOGO Y MENU */  
 
 .contenedor{
@@ -98,10 +83,37 @@ h2{
 }
 
 
+.videoyt{
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
+.maps{
+    display: flex;
+    margin: 30px;
+    font-size: 80%;
+    justify-content: center;
+    align-items: center;
 
-/* MEDIA QUERIES */
+}
 
-@media all and (max-width: 600px){
+.bombonera360{
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
+.museo{
+    display: flex;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg{
+    background-color: linear-gradient(rgba(0, 0, 0, 0.76) 70%, rgba(255, 255, 0, 0.356),rgba(0, 0, 0, 0.76) );
 }
