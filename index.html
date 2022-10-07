@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BocaJuniors</title>
+    <title>Locura por Boca</title>
 
     <!-- KEYWORDS -->
-    <meta name="keywords" content="boca juniors, copas del mundo, copa libertadores, plantel de boca, futbol, Riquelme, Palermo, Maradona"> 
+    <meta name="keywords" content="boca juniors, copas del mundo, copa libertadores, plantel de boca,
+     futbol, Riquelme, Palermo, Maradona"> 
     
     <!-- META DESCRIPTION -->
     <meta name="description" content="Infomacion general y actual del club mas grande de Ameríca, Boca Juniors">
@@ -31,71 +32,48 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"></script>
 
 
-
-
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
-<body class="indexx">
-
-
+<body class="inicio">
     <!-- MENU  -->
+    <nav class="navbar navbar-expand-lg bg-">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./multimedia/cabj.png" width="120px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <header class="bj_animate">
-        <div class="header_nav">
-            <div class="contenedor">
-                    <div class="escudo">
-                    <img src="./multimedia/cabj.png">
-                    </div>
-                <nav>
-                <!-- PAGINAS -->
-                    <div class="menu">
-                    <a href="paginas/historia.html"><span>Historia</span></a>
-                    <a href="paginas/plantel.html"><span>Plantel</span></a>
-                    <a href="paginas/bombonera.html"><span>Bombonera</span></a>
-                    <a href="paginas/contacto.html"><span>Contacto</span></a>
-                    </div>
-                   
-                </nav>                
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item">
+              <a class="nav-link text-muted"  aria-current="page" href="./paginas/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="./paginas/plantel.html">Plantel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="./paginas/historia.html">Historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted" href="./paginas/bombonera.html">Bombonera</a>
+            </li>
+          </ul>
         </div>
-
-        <section class="banner contenedor">
+      </div>
+    </nav>
+  
+    <section class="banner contenedor">
             <secrion class="banner_title">
                 <h2>PODRAN IMITARNOS, PERO JAMAS NOS VAN A IGUALAR</h2>
-                <a href="" class="registrate">Registrate</a>
             </secrion>
-
             <div class="banner_img">
-                <a href="file:///C:/Users/diazl/Desktop/BJ/index.html"><img src="./multimedia/escudo.png"></a>
+                <img src="./multimedia/escudo.png"></a>
             </div>
-
-
         </section>
                 
-    </header>
-
-
-    <div class="diego">
-    <h3>DIEGO</h3>
-    </div>
-    <div class="armando">
-    <h2>ARMANDO</h2>
-    </div>
-    <div class="maradona">
-    <h1>MARADONA</h1>
-    </div>
-
-    <div class="cuadradomixin1">
-        <p>Cuadrado 1</p>
-    </div>
-    <div class="cuadradomixin2">
-        <p>Cuadrado 2</p>
-    </div>
-    <div class="cuadradomixin3">
-        <p>Cuadrado 3</p>
-    </div>
-
-   
    
    <!-- puse un section, porque no me daba mas el background -->
     <section id="copas">
@@ -103,35 +81,61 @@
 
         <div class="copas" data-aos="zoom-in">
             <h2>CAMPEONATOS DEL MUNDO</h2>
-            <h3>1977</h3>
-            <h4>El equipo del Toto Lorenzo alcanzó la cima del mundo tras empatar 2-2 <br>en la Bombonera y vencer 3-0 a Borussia Mönchengladbach en Alemania</h4> 
-                 <img src="./multimedia/totolorenzo.jpg" height="200px">
-                 <img src="./multimedia/primercopa.jfif" height="200px">
-        
-        
-             <h3>2000</h3>
-             <h4>Boca logró su segunda Copa del Mundo con un triunfo por 2-1 ante el poderoso<br> Real Madrid de España, en Tokio, con dos goles de Martín Palermo.</h4>
-                 <img src="./multimedia/palermorm.jpg" height="200px">
-                 <img src="./multimedia/romanrm.jpg" height="200px">
-        
-            <h3>2003</h3>
-            <h4>Otro gigante del mundo como el Milan de Italia quedó de rodillas ante el Boca de Bianchi<br> en Yokohama, Japón, tras el 1-1 en los 90 minutos y la apasionante definición por penales.</h4>
-            <img src="./multimedia/rolo.jpg" height="200px">
-            <img src="./multimedia/tercera.jpg" height="200px">
-        
-        </div> 
-        
-        </section>
-
-        <div class="sponsor">
-            <h5>Sponsors oficiales 2022 | </h5>
-            <img src="./multimedia/adidas.png">
-            <img src="./multimedia/directv.png">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <figure class="figure">
+                      <img src="./multimedia/primercopa.jfif" class="figure-img img-fluid rounded" alt="...">
+                      <figcaption class="figure-caption">1977 <hr> El equipo del Toto Lorenzo alcanzó la cima del mundo tras empatar 2-2 en la Bombonera y vencer 3-0 a Borussia Mönchengladbach en Alemania</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4">
+                    <figure class="figure">
+                      <img src="./multimedia/palermorm.jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption">2000<hr>Boca logró su segunda Copa del Mundo con un triunfo por 2-1 ante el poderoso Real Madrid de España, en Tokio, con dos goles de Martín Palermo.</figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4">
+                    <figure class="figure">
+                      <img src="./multimedia/tercera.jpg" class="figure-img img-fluid rounded" alt="...">
+                      <figcaption class="figure-caption">2003<hr>Otro gigante del mundo como el Milan de Italia quedó de rodillas ante el Boca de Bianchi en Yokohama, Japón, tras el 1-1 en los 90 minutos y la apasionante definición por penales.</figcaption>
+                    </figure>
+                  </div>
+                </div>
+            </div>
         </div>
-    </body> 
+        
+            <!-- LA12 -->
+        <div class="la12">
+            <div class="container text-center">
+                <h4>Jugador Nº12</h4>
+                <div class="texto">
+                <div class="row row-cols-2">
+                  <div class="col">La hinchada de Boca es el Jugador Nro 12. Que el aliento de su gente es tan envolvente que el equipo juega con ventaja, con uno más. Si bien eso es algo que puede palparse en cada presentación, sobre todo en la Bombonera</div>
+                  <div class="col"><a href="https://lanumero12.com.ar/"><img class="img-fluid" src="./multimedia/la12.png" width="300px"></div></a>
+                </div>
+                </div>
+            </div>
+        </div>
 
-        <!-- REDES Y FOOTER -->
+            <!-- SPONSORS -->
+        <div class="sponsor">
+            <div class="container text-center">
+                <div class="row row-cols-4">
+                  <div class="col"><a href="https://www.adidas.com.ar/boca_juniors?-_-ds_agid=58700005563066119&-_-ds_kid=43700050796351899-_-&af_channel=Search&af_reengagement_window=30d&c=Football-Boca_Juniors-General-B-BMM&cm_mmc=AdieSEM_Google-_-Football-Boca_Juniors-General-B-BMM-_-General-Boca_Juniors-X-General-_
+                    -%2Badidas%20%2Bboca%20%2Bjuniors-_-BocaJrsSitelink-_-dv%3AeCom-_-cm_mmca1%3DAR-_-cm_mmc2%3D&gclid=Cj0KCQjw1vSZBhDuARIsAKZlijQZYcZm4Ek
+                    l41cIQXdfu148uYOHQsUY4SfOb9mDyD_yLw6a5CEU2UoaAnKXEALw_wcB&gclsrc=aw.ds&is_retargeting=true&pid=googleadwords_temp">
+                    <img class="img-fluid" src="./multimedia/adidas.png"></div></a>
+                  <div class="col"><a href="https://www.directvgo.com/ar/?gclid=Cj0KCQjw1vSZBhDuARIsAKZlijT1mk3mtFAGwcYr3GPRPDJsybRvOdMOwatnRufaTJIAYiqrxWH0ytkaAvPTEALw_wcB">
+                    <img class="img-fluid" src="./multimedia/directv.png"></div></a>
+                  <div class="col"><a href="https://www.gatorade.com/"><img class="img-fluid" src="./multimedia/gatorade.png"></div></a>
+                  <div class="col"><a href="https://www.ea.com/es-es/games/fifa/fifa-23"><img class="img-fluid"src="./multimedia/fifa.png"></div></a>
+                </div>
+            </div>
+        </div>    
+</body> 
 
+            <!-- REDES Y FOOTER -->
     <footer>
        <div class="contedorrr" data-aos="fade-up"
        data-aos-anchor-placement="top-bottom">
@@ -139,22 +143,19 @@
             <a href="https://www.instagram.com/bocajrsoficial/?hl=es-la"><img src="./multimedia/instagrem.png"></a>
             <a href="https://twitter.com/bocajrsoficial"><img src="./multimedia/twit.png"></a>
             <a href="https://www.youtube.com/c/bocajuniors"><img src="./multimedia/ytube.png"></a>
-            
         </div>
             <p>&copy;2022, Lautaro Diaz. Todos los derechos reservados</p>
        </div>
-
     </footer>
 
-
-
-<!-- AOS -->
+    <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
       </script>
 
-
+      <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
 

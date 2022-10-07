@@ -1,48 +1,13 @@
 /* CONTACTO */
-.contact{
-    background: url(../multimedia/carlosboca.jpg);
-    margin: 0;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 110%;
-    background-attachment: fixed;
-
-}
-.boca img{
-    width: 120px;
-}
-
-.contex{
-    .contenedor{
-    width: 90%;
-    max-width: 1400px;
-    margin: auto;
- 
-    }
-    .bg_animate{
-    width: 100%;
-    height: 110vh;
-    }
-    .header_nav{
-    width: 100%;
-    }
-    .header_nav .contenedor{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    }
-    .boca img{
-    width: 120px;
-    }
-}
 
 /* FORMULARIO*/
 .header_nav h1{
     font-family: 'Krona One', sans-serif;
+    color: #fff;
     font-size: 140%;
 }
 .header_nav nav a{
+    color: #fff;
     text-decoration: none;
     margin-right: 10px;
 }
@@ -51,12 +16,14 @@
     font-family: 'Krona One', sans-serif;
     text-align: center;
 }
-
-
+.contenedorr .form .form-header .form-title{
+    color: #fff;
+}
 .contenedorr .form{
     background: rgba(0, 0, 0, .6);
     width: 90%;
     max-width: 650px;
+    margin: auto;
     padding: 5px 35px;
     margin-top: 50px;
     padding-bottom: 30px;
@@ -64,6 +31,7 @@
 }
 .contenedorr .form .form-label{
     display: block;
+    color: rgba(255, 255, 255, 0.822);
     font-size: 16px;
     position: relative;
 }
@@ -93,11 +61,11 @@
     padding: 15px 0;
     cursor: pointer;
     transition: all .5s ease;
+    color: black;
 }
 .contenedorr .form .btn-submit:hover{
     background:  rgb(247, 210, 2);
 }
-
 
 
 /* FIN DEL CONTACTO */

@@ -2,13 +2,4 @@ $colorletra: #fff;
 
 
 
-$paleta:(
-    principal: rgba(0, 38, 255, 0.493),
-);
 
-
-
-
-body{
-    background-color: map-get($paleta, principal );
-}

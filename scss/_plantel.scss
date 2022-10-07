@@ -1,19 +1,11 @@
 /* PLANTEL  */
-.plantelbody{
-    background: url(../multimedia/campeones.jpg);
-    margin: 0;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    background-attachment: fixed;
-    
 
-}
+
+/* JUGADORES */
 .main_jugadores img{
     border-radius: 40px;
     margin: 5px;
 }
-
 .arqueros img:hover{
     transform: scale(1.25);
 }
@@ -34,19 +26,6 @@
 }
 .delanterosdos img:hover{
     transform: scale(1.25);
-}
-
-
-
-.plantelbody :before{
-    content: "";
-    width: 100%;
-    min-height: 170vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.1;
-    z-index: -1;
 }
 
 .planter{
@@ -106,10 +85,7 @@
         justify-content: center; 
      }
 
-
-
 /* ARQUEROS */
-
 .arqueros{
     display: flex;
     margin: 10px;
@@ -118,15 +94,13 @@
     flex-wrap: wrap;
 }
 
-        /* DEFENSORES */
-
+/* DEFENSORES */
 .defensores{
     display: flex;
     margin: 10px;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-  
 }
 
 .defensoresdos{
@@ -135,10 +109,9 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-  
 }
 
-    /* MEDIOCAMPISTAS */
+/* MEDIOCAMPISTAS */
 .medio{
     display: flex;
     margin: 10px;
@@ -154,9 +127,7 @@
     flex-wrap: wrap; 
 }
 
-
-    /* DELANTEROS */
-
+/* DELANTEROS */
 .delanteros{
     display: flex;
     margin: 10px;
@@ -164,12 +135,16 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-
-
+.delanterosdos{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
 
 #medio{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.76) 40%, rgba(255, 255, 0, 0.356),rgba(0, 0, 0, 0.76));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(255, 255, 0, 0.356),rgba(0, 0, 0, 0.76));
     margin: auto;
 }
     

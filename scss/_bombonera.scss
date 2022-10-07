@@ -1,104 +1,33 @@
 /* BOMBONERA */
 
 
-.bombonerita{
-    background: url(../multimedia/bombonerafondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-    
-     
-}
 
-body:before{
-    content: "";
-    width: 100%;
-    min-height: 100vh;
-    position: absolute;
-    top: 0;
-    margin: 0;
-
-    left: 0;
-
-    background-image: linear-gradient(rgba(0, 0, 0, 0.76) 70%, rgba(255, 255, 0, 0.356),rgba(0, 0, 0, 0.76) );
-
-    z-index: -1;
-}
-
-
-
-    /* CABJ */
-
-.escudo img{
-    width: 120px;
-}
-
-
-
-
-/* HISTORIA */
-
+/* ESLOGAN */
 .letras{
-    font-size: 17px;
+    
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-
-h2{
+h4{
     justify-content: center;
     text-align: center;
     margin: 25px;
     margin-top: 80px;
 }
 
-
-
-  /* LOGO Y MENU */  
-
-.contenedor{
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.header_nav{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.header_nav .contenedor{
-    display: flex !important;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
-}
-
-.header_nav nav a{
-    color:#484848;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-
-.videoyt{
-    margin: 30px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.maps{
-    display: flex;
-    margin: 30px;
-    font-size: 80%;
+/* YOUTUBE, MAPS Y MUSEO*/
+.titulolaboca, .museotit{
+    margin: 40px;
     justify-content: center;
     align-items: center;
-
 }
-
+.horarios{
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .bombonera360{
     margin: 30px;
     align-items: center;
@@ -106,14 +35,38 @@ h2{
     text-align: center;
 }
 
-.museo{
-    display: flex;
-    margin: 30px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.informacion{
+    margin: 50px;
 }
 
-#bg{
-    background-color: linear-gradient(rgba(0, 0, 0, 0.76) 70%, rgba(255, 255, 0, 0.356),rgba(0, 0, 0, 0.76) );
+.titulomuseo , .titulobombonera{
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin: 40px;
 }
+.titulobombonera img{
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+}
+.museo{
+    margin: 50px;
+}
+
+
+/* REDES */
+
+footer{
+    text-align: center;
+    padding: 60px 0;
+    background: black;
+    width: 100%;
+    .redes img{
+        padding: 10px;
+        width: 60px ;
+        height: 60px ;
+    }
+}
+
+/* FIN DE HISTORIA */
