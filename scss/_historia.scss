@@ -1,9 +1,4 @@
 /* HISTORIA */
-.historiabody{
-    background:black;
-}
-
-
 .titulohis, h2{
     margin: 40px;
     justify-content: center;
@@ -11,37 +6,22 @@
     text-align: center;
 }
 
-/* SUBTITULO */
-.banner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    .banner_title h2{
-        font-size: 30px;
-        font-weight: 600;
-        margin-bottom: 20px;
-    }
-    .banner_title .registrate{
-        color: black;
-        font-size: 20px;
-        text-decoration: none;
-        display: inline-block;
-        background: rgb(215, 218, 12);
-        padding: 20px;
-    }
-    .banner_img img{
-        width: 500px;
-        display: block;
-    }
+.hamburguesahistoria{
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border: 100px;
 }
-
 /* LIBERTADORES*/
 .libertadores{
     align-items: center;
     justify-content: center;
     margin: 50px;
 }
+
+.libertadores img:hover{
+    transform: scale(1.05);
+}
+
 
 .campeonatos{
     justify-content: center;
@@ -50,7 +30,14 @@
     margin: 40px;
 }
 
-
+.titulosdeboca{
+    justify-content: center;
+    text-align: center;
+    margin: 90px;
+}
+.titulosdeboca img:hover{
+    transform: scale(1.05);
+}
 /* FOOTER*/
 footer{
     text-align: center;

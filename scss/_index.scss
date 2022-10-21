@@ -2,12 +2,34 @@
 *{  margin: 0;
     padding: 0;
     box-sizing: border-box;  
+    color: #fff;
+    font-family: 'Krona One', sans-serif;
 }
 
+body{
+    font-family: 'Krona One', sans-serif;
+    background: url(../multimedia/remerafondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
-
+body:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 /* SUBTITULO */
-
+.hamburguesa{
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border: 100px;
+}
 .banner{
     display: flex;
     justify-content: space-between;
@@ -19,20 +41,19 @@
         
         margin: 50px;
     }
-    .banner_title .registrate{
-        color: black;
-        font-size: 20px;
-        text-decoration: none;
-        display: inline-block;
-        background: rgb(215, 218, 12);
-        padding: 20px;
-    }
     .banner_img img{
         width: 700px;
         display: block;
     }   
 }
 
+
+.tituloindex{
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 /* COPAS INTERNACIONALES */
 #copas{
     background-image: rgba(0, 0, 0, 0.76);
@@ -53,6 +74,10 @@
 }
 
 .copas img:hover{
+    transform: scale(1.01);
+}
+
+.la12 img:hover{
     transform: scale(1.01);
 }
 
@@ -81,6 +106,10 @@
 }
 
 
+.amarillo{
+    color: yellow;
+}
+
 /* SPONSORS */
 .sponsor img{
     width: 100px;
@@ -88,31 +117,39 @@
     align-items: center;
     margin: 20px;
 }
-
 .sponsor{
     justify-content: center;
     align-items: center;
     margin: 20px;
 }
-
-
 .sponsor img:hover{
     transform: scale(1.25);
 }
 
-
 /* REDES */
 
-footer{
+
+.footer{
     text-align: center;
     padding: 60px 0;
-    background: black;
-    width: 100%;
+    background: blue;
+    width: 60%;
     .redes img{
         padding: 10px;
         width: 60px ;
         height: 60px ;
     }
+}
+
+.logofoot img{
+    width: 170px;
+}
+
+
+@media screen and(max-width:320px){
+    body{
+        background: url(../multimedia/FONDODECELULAR.jpg);
+        }
 }
 
 /* FIN DEL INDEX */

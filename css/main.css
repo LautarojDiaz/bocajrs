@@ -2,9 +2,33 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Krona One', sans-serif; }
+
+body {
+  font-family: 'Krona One', sans-serif;
+  background: url(../multimedia/remerafondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+body:before {
+  content: "";
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; }
 
 /* SUBTITULO */
+.hamburguesa {
+  background-color: white;
+  border-radius: 100px;
+  border: 100px; }
+
 .banner {
   display: flex;
   justify-content: space-between;
@@ -14,16 +38,15 @@
     font-size: 30px;
     font-weight: 600;
     margin: 50px; }
-  .banner .banner_title .registrate {
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-    display: inline-block;
-    background: #d7da0c;
-    padding: 20px; }
   .banner .banner_img img {
     width: 700px;
     display: block; }
+
+.tituloindex {
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
 
 /* COPAS INTERNACIONALES */
 #copas {
@@ -41,6 +64,9 @@
     margin: 20px; }
 
 .copas img:hover {
+  transform: scale(1.01); }
+
+.la12 img:hover {
   transform: scale(1.01); }
 
 /* LA12 */
@@ -64,6 +90,9 @@
 .la12 img:hover {
   transform: scale(1.15); }
 
+.amarillo {
+  color: yellow; }
+
 /* SPONSORS */
 .sponsor img {
   width: 100px;
@@ -80,47 +109,35 @@
   transform: scale(1.25); }
 
 /* REDES */
-footer {
+.footer {
   text-align: center;
   padding: 60px 0;
-  background: black;
-  width: 100%; }
-  footer .redes img {
+  background: blue;
+  width: 60%; }
+  .footer .redes img {
     padding: 10px;
     width: 60px;
     height: 60px; }
 
+.logofoot img {
+  width: 170px; }
+
+@media screen and (max-width: 320px) {
+  body {
+    background: url(../multimedia/FONDODECELULAR.jpg); } }
+
 /* FIN DEL INDEX */
 /* HISTORIA */
-.historiabody {
-  background: black; }
-
 .titulohis, h2 {
   margin: 40px;
   justify-content: center;
   align-items: center;
   text-align: center; }
 
-/* SUBTITULO */
-.banner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%; }
-  .banner .banner_title h2 {
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 20px; }
-  .banner .banner_title .registrate {
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-    display: inline-block;
-    background: #d7da0c;
-    padding: 20px; }
-  .banner .banner_img img {
-    width: 500px;
-    display: block; }
+.hamburguesahistoria {
+  background-color: white;
+  border-radius: 100px;
+  border: 100px; }
 
 /* LIBERTADORES*/
 .libertadores {
@@ -128,11 +145,22 @@ footer {
   justify-content: center;
   margin: 50px; }
 
+.libertadores img:hover {
+  transform: scale(1.05); }
+
 .campeonatos {
   justify-content: center;
   align-items: center;
   align-items: center;
   margin: 40px; }
+
+.titulosdeboca {
+  justify-content: center;
+  text-align: center;
+  margin: 90px; }
+
+.titulosdeboca img:hover {
+  transform: scale(1.05); }
 
 /* FOOTER*/
 footer {
@@ -148,6 +176,11 @@ footer img {
 
 /* CONTACTO */
 /* FORMULARIO*/
+.hamburguesacontacto {
+  background-color: white;
+  border-radius: 100px;
+  border: 100px; }
+
 .header_nav h1 {
   font-family: 'Krona One', sans-serif;
   color: #fff;
@@ -216,6 +249,14 @@ footer img {
 /* FIN DEL CONTACTO */
 /* BOMBONERA */
 /* ESLOGAN */
+.hamburguesabombonera {
+  background-color: white;
+  border-radius: 100px;
+  border: 100px; }
+
+.canchadibujo img:hover {
+  transform: scale(1.2); }
+
 .letras {
   justify-content: center;
   align-items: center;
@@ -262,12 +303,20 @@ h4 {
 .museo {
   margin: 50px; }
 
+.infobasica {
+  margin: 40px;
+  margin-top: 70px;
+  justify-content: center;
+  text-align: center; }
+
+.escudo3d img {
+  margin: 40px;
+  align-items: center; }
+
 /* REDES */
 footer {
-  text-align: center;
-  padding: 60px 0;
-  background: black;
-  width: 100%; }
+  margin: 0;
+  padding: 90px; }
   footer .redes img {
     padding: 10px;
     width: 60px;
@@ -276,6 +325,11 @@ footer {
 /* FIN DE HISTORIA */
 /* PLANTEL  */
 /* JUGADORES */
+.hamburguesaplantel {
+  background-color: white;
+  border-radius: 100px;
+  border: 100px; }
+
 .main_jugadores img {
   border-radius: 40px;
   margin: 5px; }
@@ -300,24 +354,6 @@ footer {
 
 .delanterosdos img:hover {
   transform: scale(1.25); }
-
-.planter .contenedor {
-  width: 90%;
-  max-width: 1400px;
-  margin: auto; }
-
-.planter .bg_animate {
-  width: 100%;
-  height: 110vh; }
-
-.planter .header_nav {
-  width: 100%; }
-
-.planter .header_nav .contenedor {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px; }
 
 /* TITULOS */
 .plantel {
@@ -404,15 +440,3 @@ footer {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap; }
-
-#medio {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(255, 255, 0, 0.356), rgba(0, 0, 0, 0.76));
-  margin: auto; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: #fff;
-  font-family: 'Krona One', sans-serif;
-  background: rgba(0, 0, 0, 0.575); }

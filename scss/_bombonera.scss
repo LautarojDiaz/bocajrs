@@ -3,6 +3,14 @@
 
 
 /* ESLOGAN */
+.hamburguesabombonera{
+        background-color: rgb(255, 255, 255);
+        border-radius: 100px;
+        border: 100px;
+}
+.canchadibujo img:hover{
+    transform: scale(1.20);
+}
 .letras{
     
     justify-content: center;
@@ -54,19 +62,28 @@ h4{
     margin: 50px;
 }
 
-
-/* REDES */
-
-footer{
+.infobasica{
+    margin: 40px;
+    margin-top: 70px;
+    justify-content: center;
     text-align: center;
-    padding: 60px 0;
-    background: black;
-    width: 100%;
+}
+
+.escudo3d img{
+    margin: 40px;
+    align-items: center;
+}
+/* REDES */
+footer{
+    margin: 0;
+    padding: 90px;
     .redes img{
         padding: 10px;
         width: 60px ;
         height: 60px ;
     }
 }
+
+
 
 /* FIN DE HISTORIA */
