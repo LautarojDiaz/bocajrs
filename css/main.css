@@ -123,8 +123,34 @@ body:before {
   width: 170px; }
 
 @media screen and (max-width: 320px) {
-  body {
-    background: url(../multimedia/FONDODECELULAR.jpg); } }
+  .escudomedia {
+    display: none; }
+  .la12img img {
+    display: none; }
+  footer {
+    width: auto; } }
+
+@media screen and (max-width: 375px) {
+  .escudomedia {
+    display: none; }
+  .la12img img {
+    display: none; }
+  footer {
+    width: auto; } }
+
+@media screen and (max-width: 425px) {
+  .escudomedia {
+    display: none; }
+  footer {
+    width: auto; } }
+
+@media screen and (max-width: 768px) {
+  .escudomedia {
+    display: none; }
+  .la12img img {
+    display: none; }
+  footer {
+    width: auto; } }
 
 /* FIN DEL INDEX */
 /* HISTORIA */
@@ -173,6 +199,10 @@ footer img {
   padding: 10px;
   width: 60px;
   height: 60px; }
+
+@media screen and (max-width: 320px) {
+  .titulosdeboca {
+    display: none; } }
 
 /* CONTACTO */
 /* FORMULARIO*/

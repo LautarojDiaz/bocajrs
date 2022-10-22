@@ -52,4 +52,8 @@ footer img{
 
 }
 
-
+@media screen and(max-width:320px){
+    .titulosdeboca{
+        display: none;
+    }
+}

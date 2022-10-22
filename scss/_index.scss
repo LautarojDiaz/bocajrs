@@ -147,9 +147,46 @@ body:before{
 
 
 @media screen and(max-width:320px){
-    body{
-        background: url(../multimedia/FONDODECELULAR.jpg);
-        }
+    .escudomedia{
+        display: none;
+    }
+    .la12img img{
+        display: none;
+    }
+    footer{
+        width: auto;
+    }
 }
 
+@media screen and(max-width:375px){
+    .escudomedia{
+        display: none;
+    }
+    .la12img img{
+        display: none;
+    }
+    footer{
+        width: auto;
+    }
+}
+@media screen and(max-width:425px){
+    .escudomedia{
+        display: none;
+    }
+    footer{
+        width: auto;
+    }
+   
+}
+@media screen and(max-width:768px){
+    .escudomedia{
+        display: none;
+    }
+    .la12img img{
+        display: none;
+    }
+    footer{
+        width: auto;
+    }
+}
 /* FIN DEL INDEX */
