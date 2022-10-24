@@ -1,11 +1,10 @@
 /* PLANTEL  */
-
-/* JUGADORES */
 .hamburguesaplantel{
     background-color: rgb(255, 255, 255);
     border-radius: 100px;
     border: 100px;
 }
+/* JUGADORES */
 .main_jugadores img{
     border-radius: 40px;
     margin: 5px;
@@ -31,7 +30,6 @@
 .delanterosdos img:hover{
     transform: scale(1.25);
 }
-
 /* TITULOS */
     .plantel{
         display: flex;
@@ -75,7 +73,6 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 /* DEFENSORES */
 .defensores{
     display: flex;
@@ -84,7 +81,6 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 .defensoresdos{
     display: flex;
     margin: 10px;
@@ -92,7 +88,6 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 /* MEDIOCAMPISTAS */
 .medio{
     display: flex;
@@ -124,5 +119,5 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+/* FIN DE PLANTEL */
 

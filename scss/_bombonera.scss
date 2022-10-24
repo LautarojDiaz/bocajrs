@@ -1,89 +1,50 @@
 /* BOMBONERA */
-
-
-
-/* ESLOGAN */
 .hamburguesabombonera{
-        background-color: rgb(255, 255, 255);
-        border-radius: 100px;
-        border: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border: 100px;
 }
+/* TITULO */
 .canchadibujo img:hover{
     transform: scale(1.20);
 }
 .letras{
-    
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-h4{
-    justify-content: center;
-    text-align: center;
-    margin: 25px;
-    margin-top: 80px;
-}
-
-/* YOUTUBE, MAPS Y MUSEO*/
-.titulolaboca, .museotit{
-    margin: 40px;
-    justify-content: center;
-    align-items: center;
-}
-.horarios{
-    margin: 50px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.bombonera360{
-    margin: 30px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.informacion{
-    margin: 50px;
-}
-
-.titulomuseo , .titulobombonera{
-    justify-content: center;
-    align-self: center;
-    text-align: center;
-    margin: 40px;
-}
-.titulobombonera img{
-    justify-content: center;
-    align-items: center;
-    border: 3px solid #fff;
-}
-.museo{
-    margin: 50px;
-}
-
+/*ESCUDO3D BOCA E INFO*/
 .infobasica{
     margin: 40px;
     margin-top: 70px;
     justify-content: center;
     text-align: center;
 }
-
 .escudo3d img{
     margin: 40px;
     align-items: center;
 }
-/* REDES */
-footer{
-    margin: 0;
-    padding: 90px;
-    .redes img{
-        padding: 10px;
-        width: 60px ;
-        height: 60px ;
+/* MUSEO */
+.contenedormuseo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; 
+    .textomuseo h5{
+        font-size: 24px;
+        margin: 40px;
     }
+    .escudomedia img{
+        width: 150px;
+        display: block;
+        margin: 60px;
+    }   
 }
 
-
-
+/* MEDIA QUERIES */
+@media screen and(max-width:375px){
+    .museoinfo{
+        display: none;
+    }
+}
 /* FIN DE HISTORIA */

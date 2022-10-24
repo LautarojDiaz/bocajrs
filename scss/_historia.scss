@@ -1,13 +1,12 @@
 /* HISTORIA */
-.titulohis, h2{
+.titulohis{
     margin: 40px;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-
 .hamburguesahistoria{
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     border-radius: 100px;
     border: 100px;
 }
@@ -17,19 +16,10 @@
     justify-content: center;
     margin: 50px;
 }
-
 .libertadores img:hover{
     transform: scale(1.05);
 }
-
-
-.campeonatos{
-    justify-content: center;
-    align-items: center;
-    align-items: center;
-    margin: 40px;
-}
-
+/* TITULOS DE BOCA */
 .titulosdeboca{
     justify-content: center;
     text-align: center;
@@ -49,9 +39,8 @@ footer img{
     padding: 10px;
     width: 60px ;
     height: 60px ;
-
 }
-
+/* MEDIA QUERIES */
 @media screen and(max-width:320px){
     .titulosdeboca{
         display: none;

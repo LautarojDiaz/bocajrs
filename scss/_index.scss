@@ -5,7 +5,6 @@
     color: #fff;
     font-family: 'Krona One', sans-serif;
 }
-
 body{
     font-family: 'Krona One', sans-serif;
     background: url(../multimedia/remerafondo.jpg);
@@ -14,101 +13,57 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
-
-body:before{
-    content: "";
-    width: 100%;
-    min-height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-/* SUBTITULO */
 .hamburguesa{
     background-color: rgb(255, 255, 255);
     border-radius: 100px;
     border: 100px;
 }
+/* SUBTITULO */
 .banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%; 
-    .banner_title h2{
+    .titulobanner h2{
         font-size: 30px;
         font-weight: 600;
-        
         margin: 50px;
     }
-    .banner_img img{
+    .imagenbanner img{
         width: 700px;
         display: block;
     }   
 }
 
-
-.tituloindex{
-    margin: 50px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 /* COPAS INTERNACIONALES */
-#copas{
-    background-image: rgba(0, 0, 0, 0.76);
-    .copas{
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-    .copas h2{
-        margin: 20px;
-        padding: 15px;
-        font-size: 20px;
-    } 
-    .copas img{
-        border: #fff solid 2px;
-        margin: 20px;
-    }
-}
-
 .copas img:hover{
     transform: scale(1.01);
 }
-
-.la12 img:hover{
-    transform: scale(1.01);
+.mundotitulo{
+    margin: 40px;
 }
-
 /* LA12 */
-.la12 h4{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.tituloladoce img{
     margin: 40px;
 }
-.texto{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 40px;
-    
+.tituloladoce img:hover{
+    transform: scale(1.01);
 }
 .la12 img{
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-
-.la12 img:hover{
-    transform: scale(1.15);
-}
-
-
 .amarillo{
     color: yellow;
 }
+.la12 img:hover{
+    transform: scale(1.10);
+}
+.texto12{
+    font-size: 20px;
+}
+
 
 /* SPONSORS */
 .sponsor img{
@@ -123,12 +78,10 @@ body:before{
     margin: 20px;
 }
 .sponsor img:hover{
-    transform: scale(1.25);
+    transform: scale(1.10);
 }
 
-/* REDES */
-
-
+/* FOOTER */
 .footer{
     text-align: center;
     padding: 60px 0;
@@ -141,28 +94,35 @@ body:before{
     }
 }
 
-.logofoot img{
-    width: 170px;
-}
-
-
+/* MEDIA QUERIES */
 @media screen and(max-width:320px){
     .escudomedia{
         display: none;
     }
-    .la12img img{
+    .mundotitulo{
+        display: none;
+    }
+    .tituloladoce{
+        display: none;
+    }
+    .la12{
         display: none;
     }
     footer{
         width: auto;
     }
 }
-
 @media screen and(max-width:375px){
     .escudomedia{
         display: none;
     }
-    .la12img img{
+    .mundotitulo{
+        display: none;
+    }
+    .tituloladoce{
+        display: none;
+    }
+    .la12{
         display: none;
     }
     footer{
@@ -173,10 +133,18 @@ body:before{
     .escudomedia{
         display: none;
     }
+    .mundotitulo{
+        display: none;
+    }
+    .tituloladoce{
+        display: none;
+    }
+    .la12{
+        display: none;
+    }
     footer{
         width: auto;
     }
-   
 }
 @media screen and(max-width:768px){
     .escudomedia{

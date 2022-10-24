@@ -14,84 +14,52 @@ body {
   background-position: center;
   background-attachment: fixed; }
 
-body:before {
-  content: "";
-  width: 100%;
-  min-height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1; }
-
-/* SUBTITULO */
 .hamburguesa {
   background-color: white;
   border-radius: 100px;
   border: 100px; }
 
+/* SUBTITULO */
 .banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%; }
-  .banner .banner_title h2 {
+  .banner .titulobanner h2 {
     font-size: 30px;
     font-weight: 600;
     margin: 50px; }
-  .banner .banner_img img {
+  .banner .imagenbanner img {
     width: 700px;
     display: block; }
 
-.tituloindex {
-  margin: 50px;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
-
 /* COPAS INTERNACIONALES */
-#copas {
-  background-image: rgba(0, 0, 0, 0.76); }
-  #copas .copas {
-    text-align: center;
-    align-items: center;
-    justify-content: center; }
-  #copas .copas h2 {
-    margin: 20px;
-    padding: 15px;
-    font-size: 20px; }
-  #copas .copas img {
-    border: #fff solid 2px;
-    margin: 20px; }
-
 .copas img:hover {
   transform: scale(1.01); }
 
-.la12 img:hover {
-  transform: scale(1.01); }
+.mundotitulo {
+  margin: 40px; }
 
 /* LA12 */
-.la12 h4 {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.tituloladoce img {
   margin: 40px; }
 
-.texto {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 40px; }
+.tituloladoce img:hover {
+  transform: scale(1.01); }
 
 .la12 img {
   justify-content: center;
   align-items: center;
   text-align: center; }
 
-.la12 img:hover {
-  transform: scale(1.15); }
-
 .amarillo {
   color: yellow; }
+
+.la12 img:hover {
+  transform: scale(1.1); }
+
+.texto12 {
+  font-size: 20px; }
 
 /* SPONSORS */
 .sponsor img {
@@ -106,9 +74,9 @@ body:before {
   margin: 20px; }
 
 .sponsor img:hover {
-  transform: scale(1.25); }
+  transform: scale(1.1); }
 
-/* REDES */
+/* FOOTER */
 .footer {
   text-align: center;
   padding: 60px 0;
@@ -119,13 +87,15 @@ body:before {
     width: 60px;
     height: 60px; }
 
-.logofoot img {
-  width: 170px; }
-
+/* MEDIA QUERIES */
 @media screen and (max-width: 320px) {
   .escudomedia {
     display: none; }
-  .la12img img {
+  .mundotitulo {
+    display: none; }
+  .tituloladoce {
+    display: none; }
+  .la12 {
     display: none; }
   footer {
     width: auto; } }
@@ -133,13 +103,23 @@ body:before {
 @media screen and (max-width: 375px) {
   .escudomedia {
     display: none; }
-  .la12img img {
+  .mundotitulo {
+    display: none; }
+  .tituloladoce {
+    display: none; }
+  .la12 {
     display: none; }
   footer {
     width: auto; } }
 
 @media screen and (max-width: 425px) {
   .escudomedia {
+    display: none; }
+  .mundotitulo {
+    display: none; }
+  .tituloladoce {
+    display: none; }
+  .la12 {
     display: none; }
   footer {
     width: auto; } }
@@ -154,14 +134,14 @@ body:before {
 
 /* FIN DEL INDEX */
 /* HISTORIA */
-.titulohis, h2 {
+.titulohis {
   margin: 40px;
   justify-content: center;
   align-items: center;
   text-align: center; }
 
 .hamburguesahistoria {
-  background-color: white;
+  background-color: #fff;
   border-radius: 100px;
   border: 100px; }
 
@@ -174,12 +154,7 @@ body:before {
 .libertadores img:hover {
   transform: scale(1.05); }
 
-.campeonatos {
-  justify-content: center;
-  align-items: center;
-  align-items: center;
-  margin: 40px; }
-
+/* TITULOS DE BOCA */
 .titulosdeboca {
   justify-content: center;
   text-align: center;
@@ -200,6 +175,7 @@ footer img {
   width: 60px;
   height: 60px; }
 
+/* MEDIA QUERIES */
 @media screen and (max-width: 320px) {
   .titulosdeboca {
     display: none; } }
@@ -278,12 +254,12 @@ footer img {
 
 /* FIN DEL CONTACTO */
 /* BOMBONERA */
-/* ESLOGAN */
 .hamburguesabombonera {
   background-color: white;
   border-radius: 100px;
   border: 100px; }
 
+/* TITULO */
 .canchadibujo img:hover {
   transform: scale(1.2); }
 
@@ -292,47 +268,7 @@ footer img {
   align-items: center;
   text-align: center; }
 
-h4 {
-  justify-content: center;
-  text-align: center;
-  margin: 25px;
-  margin-top: 80px; }
-
-/* YOUTUBE, MAPS Y MUSEO*/
-.titulolaboca, .museotit {
-  margin: 40px;
-  justify-content: center;
-  align-items: center; }
-
-.horarios {
-  margin: 50px;
-  align-items: center;
-  justify-content: center;
-  text-align: center; }
-
-.bombonera360 {
-  margin: 30px;
-  align-items: center;
-  justify-content: center;
-  text-align: center; }
-
-.informacion {
-  margin: 50px; }
-
-.titulomuseo, .titulobombonera {
-  justify-content: center;
-  align-self: center;
-  text-align: center;
-  margin: 40px; }
-
-.titulobombonera img {
-  justify-content: center;
-  align-items: center;
-  border: 3px solid #fff; }
-
-.museo {
-  margin: 50px; }
-
+/*ESCUDO3D BOCA E INFO*/
 .infobasica {
   margin: 40px;
   margin-top: 70px;
@@ -343,23 +279,33 @@ h4 {
   margin: 40px;
   align-items: center; }
 
-/* REDES */
-footer {
-  margin: 0;
-  padding: 90px; }
-  footer .redes img {
-    padding: 10px;
-    width: 60px;
-    height: 60px; }
+/* MUSEO */
+.contenedormuseo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%; }
+  .contenedormuseo .textomuseo h5 {
+    font-size: 24px;
+    margin: 40px; }
+  .contenedormuseo .escudomedia img {
+    width: 150px;
+    display: block;
+    margin: 60px; }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 375px) {
+  .museoinfo {
+    display: none; } }
 
 /* FIN DE HISTORIA */
 /* PLANTEL  */
-/* JUGADORES */
 .hamburguesaplantel {
   background-color: white;
   border-radius: 100px;
   border: 100px; }
 
+/* JUGADORES */
 .main_jugadores img {
   border-radius: 40px;
   margin: 5px; }
@@ -470,3 +416,5 @@ footer {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap; }
+
+/* FIN DE PLANTEL */
