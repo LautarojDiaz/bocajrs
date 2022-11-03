@@ -4,120 +4,15 @@
     border-radius: 100px;
     border: 100px;
 }
-/* JUGADORES */
-.main_jugadores img{
+.planteltitulo{
+    justify-content: center;
+    text-align: center;
+    margin: 45px;
+}
+.jugador{
+    width: 200px;
+    height: 170px;
     border-radius: 40px;
-    margin: 5px;
-}
-.arqueros img:hover{
-    transform: scale(1.25);
-}
-.defensores img:hover{
-    transform: scale(1.25);
-}
-.defensoresdos img:hover{
-    transform: scale(1.25);
-}
-.medio img:hover{
-    transform: scale(1.25);
-}
-.mediodos img:hover{
-    transform: scale(1.25);
-}
-.delanteros img:hover{
-    transform: scale(1.25);
-}
-.delanterosdos img:hover{
-    transform: scale(1.25);
-}
-/* TITULOS */
-    .plantel{
-        display: flex;
-        margin: 30px;
-        justify-content: center; 
-        margin-top: 80px; 
-        border-radius: 50px;
-    }
-    .arquerostitulo{
-        display: flex;
-        margin: 30px;
-        justify-content: center;   
-    }
+}     
 
-    .defensortitulo{
-        display: flex;
-        margin: 30px;
-        justify-content: center; 
-    }
-    .mediocampistastitulo{
-        display: flex;
-        margin: 0px;
-        justify-content: center; 
-    }
-    .delanterostitulo{
-        display: flex;
-        margin: 30px;
-        justify-content: center; 
-     }
-     .delanterosdos{
-        display: flex;
-        margin: 30px;
-        justify-content: center; 
-     }
-
-/* ARQUEROS */
-.arqueros{
-    display: flex;
-    margin: 10px;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-/* DEFENSORES */
-.defensores{
-    display: flex;
-    margin: 10px;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.defensoresdos{
-    display: flex;
-    margin: 10px;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-/* MEDIOCAMPISTAS */
-.medio{
-    display: flex;
-    margin: 10px;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap; 
-}
-.mediodos{
-    display: flex;
-    margin: 10px;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap; 
-}
-
-/* DELANTEROS */
-.delanteros{
-    display: flex;
-    margin: 10px;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.delanterosdos{
-    display: flex;
-    margin: 10px;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-/* FIN DE PLANTEL */
-
+/* FIN PLANTEL */

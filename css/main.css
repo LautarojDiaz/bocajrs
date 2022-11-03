@@ -12,19 +12,24 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  margin: 0; }
 
 .hamburguesa {
   background-color: white;
   border-radius: 100px;
   border: 100px; }
 
+.logocabj {
+  width: 140px; }
+
 /* SUBTITULO */
 .banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%; }
+  height: 100%;
+  margin: 30px; }
   .banner .titulobanner h2 {
     font-size: 30px;
     font-weight: 600;
@@ -34,19 +39,19 @@ body {
     display: block; }
 
 /* COPAS INTERNACIONALES */
+.mundotitulo {
+  margin: 30px;
+  width: 300px; }
+
+.titulosh2 {
+  justify-content: center;
+  text-align: center;
+  margin: 50px; }
+
 .copas img:hover {
   transform: scale(1.01); }
 
-.mundotitulo {
-  margin: 40px; }
-
 /* LA12 */
-.tituloladoce img {
-  margin: 40px; }
-
-.tituloladoce img:hover {
-  transform: scale(1.01); }
-
 .la12 img {
   justify-content: center;
   align-items: center;
@@ -62,18 +67,13 @@ body {
   font-size: 20px; }
 
 /* SPONSORS */
-.sponsor img {
+.sponsorimg img {
   width: 100px;
   justify-content: center;
   align-items: center;
   margin: 20px; }
 
-.sponsor {
-  justify-content: center;
-  align-items: center;
-  margin: 20px; }
-
-.sponsor img:hover {
+.sponsorimg img:hover {
   transform: scale(1.1); }
 
 /* FOOTER */
@@ -82,10 +82,6 @@ body {
   padding: 60px 0;
   background: blue;
   width: 60%; }
-  .footer .redes img {
-    padding: 10px;
-    width: 60px;
-    height: 60px; }
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 320px) {
@@ -146,15 +142,22 @@ body {
   border: 100px; }
 
 /* LIBERTADORES*/
-.libertadores {
+.libertadores img {
   align-items: center;
   justify-content: center;
-  margin: 50px; }
+  margin: 50px;
+  width: 260px; }
 
 .libertadores img:hover {
   transform: scale(1.05); }
 
 /* TITULOS DE BOCA */
+.estrella {
+  margin: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
 .titulosdeboca {
   justify-content: center;
   text-align: center;
@@ -175,11 +178,7 @@ footer img {
   width: 60px;
   height: 60px; }
 
-/* MEDIA QUERIES */
-@media screen and (max-width: 320px) {
-  .titulosdeboca {
-    display: none; } }
-
+/* FIN DE HISTORIA */
 /* CONTACTO */
 /* FORMULARIO*/
 .hamburguesacontacto {
@@ -260,13 +259,11 @@ footer img {
   border: 100px; }
 
 /* TITULO */
-.canchadibujo img:hover {
-  transform: scale(1.2); }
-
-.letras {
+.canchadibujo {
   justify-content: center;
   align-items: center;
-  text-align: center; }
+  margin: 30px;
+  width: 300px; }
 
 /*ESCUDO3D BOCA E INFO*/
 .infobasica {
@@ -276,145 +273,28 @@ footer img {
   text-align: center; }
 
 .escudo3d img {
-  margin: 40px;
-  align-items: center; }
-
-/* MUSEO */
-.contenedormuseo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%; }
-  .contenedormuseo .textomuseo h5 {
-    font-size: 24px;
-    margin: 40px; }
-  .contenedormuseo .escudomedia img {
-    width: 150px;
-    display: block;
-    margin: 60px; }
+  margin: 50px; }
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 375px) {
   .museoinfo {
     display: none; } }
 
-/* FIN DE HISTORIA */
+/* FIN DE BOMBONERA*/
 /* PLANTEL  */
 .hamburguesaplantel {
   background-color: white;
   border-radius: 100px;
   border: 100px; }
 
-/* JUGADORES */
-.main_jugadores img {
-  border-radius: 40px;
-  margin: 5px; }
-
-.arqueros img:hover {
-  transform: scale(1.25); }
-
-.defensores img:hover {
-  transform: scale(1.25); }
-
-.defensoresdos img:hover {
-  transform: scale(1.25); }
-
-.medio img:hover {
-  transform: scale(1.25); }
-
-.mediodos img:hover {
-  transform: scale(1.25); }
-
-.delanteros img:hover {
-  transform: scale(1.25); }
-
-.delanterosdos img:hover {
-  transform: scale(1.25); }
-
-/* TITULOS */
-.plantel {
-  display: flex;
-  margin: 30px;
+.planteltitulo {
   justify-content: center;
-  margin-top: 80px;
-  border-radius: 50px; }
+  text-align: center;
+  margin: 45px; }
 
-.arquerostitulo {
-  display: flex;
-  margin: 30px;
-  justify-content: center; }
+.jugador {
+  width: 200px;
+  height: 170px;
+  border-radius: 40px; }
 
-.defensortitulo {
-  display: flex;
-  margin: 30px;
-  justify-content: center; }
-
-.mediocampistastitulo {
-  display: flex;
-  margin: 0px;
-  justify-content: center; }
-
-.delanterostitulo {
-  display: flex;
-  margin: 30px;
-  justify-content: center; }
-
-.delanterosdos {
-  display: flex;
-  margin: 30px;
-  justify-content: center; }
-
-/* ARQUEROS */
-.arqueros {
-  display: flex;
-  margin: 10px;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap; }
-
-/* DEFENSORES */
-.defensores {
-  display: flex;
-  margin: 10px;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap; }
-
-.defensoresdos {
-  display: flex;
-  margin: 10px;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap; }
-
-/* MEDIOCAMPISTAS */
-.medio {
-  display: flex;
-  margin: 10px;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap; }
-
-.mediodos {
-  display: flex;
-  margin: 10px;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap; }
-
-/* DELANTEROS */
-.delanteros {
-  display: flex;
-  margin: 10px;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap; }
-
-.delanterosdos {
-  display: flex;
-  margin: 10px;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap; }
-
-/* FIN DE PLANTEL */
+/* FIN PLANTEL */

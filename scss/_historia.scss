@@ -11,15 +11,22 @@
     border: 100px;
 }
 /* LIBERTADORES*/
-.libertadores{
+.libertadores img{
     align-items: center;
     justify-content: center;
     margin: 50px;
+    width: 260px;
 }
 .libertadores img:hover{
     transform: scale(1.05);
 }
 /* TITULOS DE BOCA */
+.estrella{
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .titulosdeboca{
     justify-content: center;
     text-align: center;
@@ -40,9 +47,4 @@ footer img{
     width: 60px ;
     height: 60px ;
 }
-/* MEDIA QUERIES */
-@media screen and(max-width:320px){
-    .titulosdeboca{
-        display: none;
-    }
-}
+/* FIN DE HISTORIA */

@@ -5,13 +5,11 @@
     border: 100px;
 }
 /* TITULO */
-.canchadibujo img:hover{
-    transform: scale(1.20);
-}
-.letras{
+.canchadibujo{
     justify-content: center;
     align-items: center;
-    text-align: center;
+    margin: 30px;
+    width: 300px;
 }
 /*ESCUDO3D BOCA E INFO*/
 .infobasica{
@@ -21,30 +19,15 @@
     text-align: center;
 }
 .escudo3d img{
-    margin: 40px;
-    align-items: center;
-}
-/* MUSEO */
-.contenedormuseo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%; 
-    .textomuseo h5{
-        font-size: 24px;
-        margin: 40px;
-    }
-    .escudomedia img{
-        width: 150px;
-        display: block;
-        margin: 60px;
-    }   
+    margin: 50px;
 }
 
 /* MEDIA QUERIES */
-@media screen and(max-width:375px){
+@media screen and (max-width:375px){
     .museoinfo{
         display: none;
     }
 }
-/* FIN DE HISTORIA */
+
+/* FIN DE BOMBONERA*/
+  
